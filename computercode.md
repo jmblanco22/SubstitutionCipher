@@ -40,7 +40,9 @@ def main():
   ---
   # decoding the substitution cipher
   ---
-  `def translate(startLetters, endLetters, spot):
+  ```
+  {
+  def translate(startLetters, endLetters, spot):
     #find the letter at (spot) in the startLetters string. 
   
     #find the location of the letter in the endLetters string.
@@ -72,6 +74,8 @@ def main():
       alpha2 = rotate(alpha2)
   print(message) 
 main()`
+```
+}
 
 
 
