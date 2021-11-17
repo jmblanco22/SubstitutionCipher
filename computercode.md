@@ -1,23 +1,25 @@
 # Encoding the Substitution cipher
 ---
-`def translate(startLetters, endLetters, spot):`
-    "find the letter at (spot) in the startLetters string." 
+```
+{
+def translate(startLetters, endLetters, spot):
+    find the letter at (spot) in the startLetters string.
   
-    "find the location of the letter in the endLetters string"
-  `return endLetters.find(startLetters[spot])`
+    find the location of the letter in the endLetters string
+  return endLetters.find(startLetters[spot])
   
-`def rotate(alphabet):`
-    "move the first letter of the alphabet to the end"
-    "shift all the letters"
-  `return alphabet[1:]+alphabet[0]`
+def rotate(alphabet):
+    move the first letter of the alphabet to the end
+    shift all the letters
+  return alphabet[1:]+alphabet[0]
 
-`def main():`
-  `alpha1 = "abcdefghijklmnopqrstuvwxyz"`
-  `alpha2 = "zyxwvutsrqponmlkjihgfedcba"`
-  "make the two alphabets for substitution"
+def main():
+  alpha1 = "abcdefghijklmnopqrstuvwxyz"
+  alpha2 = "zyxwvutsrqponmlkjihgfedcba"
+  make the two alphabets for substitution
 
-  `message = input("give a message: ") #message`
-  `letter = message[0] #array for loop in message`
+  message = input("give a message: ") #message
+  letter = message[0] #array for loop in message
   encoded = "" #will print the encoded version
   for letter in message:
     if alpha1.find(letter) >= 0:
@@ -32,6 +34,8 @@
   print(encoded)`
   
   main()
+  }
+  ```
   
   ---
   # decoding the substitution cipher
