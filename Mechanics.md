@@ -13,6 +13,6 @@ BED = VRE
 
 > This example is a very basic example of substitution cipher. Ciphertext can also include pairs of letters, triplets of letters, and more. Decryption involves knowing the key and doing the inverse.
 
-
+![alt text](IMG.gif)
 
 
