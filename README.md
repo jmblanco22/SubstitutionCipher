@@ -1,9 +1,9 @@
 # SubstitutionCipher
 
-# [Historical Context]
+# [Historical Context](Historical.md)
 
-# [Mechanics]
+# [Mechanics](mechanics.md)
 
-# [Computer Code]
+# [Computer Code](computercode.md)
 
 # Final Analysis
