@@ -1,8 +1,10 @@
 # SubstitutionCipher
 
-# [Historical Context](Historical.md)
+# [Historical Context](historical.md)
 
-# [Mechanics](mechanics.md)
+# [Mathematical Analysis](math.md)
+
+# [Mechanics](Mechanics.md)
 
 # [Computer Code](computercode.md)
 
